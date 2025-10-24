@@ -1,5 +1,9 @@
 *{
   font-family: 'Poppins', sans-serif;
+  scrollbar-width: none;
+}
+h2{
+  color:#dadada
 }
 body{
   margin: 0;
@@ -11,12 +15,14 @@ ul{
   justify-content: space-evenly;
   align-items: center;
   border-bottom: solid 2px green;
-  margin-bottom: 0px;
+  margin: 0px;
   padding: 20px;
   padding-right: 75px;
+  background-color: rgb(230, 217, 217);
 }
 a{
   text-decoration: none;
+  color:#000029
 }
 #perfil{
     border-radius: 100%
@@ -42,37 +48,38 @@ li{
   justify-content: center;
 }
 h1{
-  color: #dadaff;
+  background: linear-gradient(45deg, yellow, white);
+  background-clip: text;
+  color: transparent;
   font-size: 40px;
   font-weight: bold;
 }
 p{
-  color: #050502;
+  color: #dadada;
   font-size: 20px;
+  line-height: 36px;
 }
 #historia{
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #6acfcf;
+  background-color: #000029;
   text-align: center;
-  border-bottom: 1px solid;
   align-items: center;
 }
 #hobbies{
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #489797;
+  background-color: #000029;
   text-align: center;
   align-items: center;
-  border-bottom: 1px solid;
 }
 #favoritos{
     display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #64a7a7;
+  background-color: #000029;
   text-align: center;
 }
 #teclado{
@@ -80,14 +87,16 @@ p{
     height: 300px;
 }
 #lore{
-    max-width: 80%;
+    max-width: 70%;
+    font-size: 24px;
 }
 .imagem-fav{
     width: 400px;
     height: 400px;
 }
 .descricao-favorito{
-    max-width: 80%;
+    max-width: 70%;
+    font-size: 24px;
 }
 .favorito{
     display: flex;
@@ -95,8 +104,19 @@ p{
     align-items: center;
 }
 .titulo-favorito{
-    font-size: 28px;
+    font-size: 36px;
+    color:aliceblue;
 }
 #ditado{
-    font-size: 40px;
+    font-size: 48px;
+}
+.secao{
+  font-size:48px;
+  background: linear-gradient(45deg, yellow, white);
+  background-clip: text;
+  color: transparent;
+}
+#hobby-texto{
+  font-size: 24px;
+  max-width: 70%;
 }
